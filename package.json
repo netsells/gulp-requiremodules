@@ -1,0 +1,22 @@
+{
+  "name": "gulp-requiremodules",
+  "version": "1.0.0",
+  "description": "Gulp module for requiring gulp module dependencies under a single variable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/netsells/gulp-requiremodules.git"
+  },
+  "author": "Sam Turrell <sam@samturrell.co.uk> (http://samturrell.co.uk)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/netsells/gulp-requiremodules/issues"
+  },
+  "homepage": "https://github.com/netsells/gulp-requiremodules",
+  "dependencies": {
+    "lodash": "^3.8.0"
+  }
+}
