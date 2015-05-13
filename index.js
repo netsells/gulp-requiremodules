@@ -10,7 +10,7 @@ module.exports = function(modules)
 {
     var $;
 
-    _.forEach(modules, function(n, key) {
+    _.forEach(modules, function(key, n) {
         if (key.substr(0, 5) == 'gulp-') {
             plugin = camelize(key.substring(5));
         } else {
