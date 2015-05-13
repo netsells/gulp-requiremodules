@@ -8,7 +8,7 @@ function camelize(str) {
 
 module.exports = function(modules)
 {
-    var $;
+    var $ = [];
 
     _.forEach(modules, function(key, n) {
         if (key.substr(0, 5) == 'gulp-') {
